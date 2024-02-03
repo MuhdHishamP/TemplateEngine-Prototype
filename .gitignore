@@ -1,0 +1,44 @@
+# Django-specific
+*.log
+local_settings.py
+db.sqlite3
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (assuming you're using one)
+venv/
+backend/env/
+
+# Static and media files (if not using version control)
+static/
+media/
+
+# Compiled files
+*.pyc
+
+# OS-generated files
+.DS_Store
+
+# Secret environment variables
+.env
+
+# Frontend-specific
+node_modules/
+.next/
+build/
+
+# Generated files
+.cache
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/

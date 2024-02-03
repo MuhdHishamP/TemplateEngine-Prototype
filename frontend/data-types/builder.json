@@ -1,0 +1,22 @@
+{
+    "user": 1,
+    "meta_data": {
+        "layout": "layout_01",
+        "themes": {
+            "typography": {
+                "font": "sans-serif",
+                "primary_w": "600",
+                "seconday_w": "600",
+                "paragraph_w": "600"
+            },
+            "color": {
+                "background_color": "#fafafa",
+                "primary_color": "#fafafa",
+                "seconday_color": "#fafafa",
+                "paragraph_color": "#fafafa"
+            }
+        },
+        "is_draft": false,
+        "is_published": true
+    }
+}
