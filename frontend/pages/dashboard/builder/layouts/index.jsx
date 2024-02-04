@@ -4,6 +4,7 @@ import AdminSidebar from "../../../../components/AdminSidebar/admin-sidebar";
 import axios from "axios";
 import { baseURL, accessToken } from "@/auth";
 import Card1 from "@/components/Cards/Card1";
+import Builder from "@/components/Builder/Builder";
 // import FooterAdmin from "../../dashboard/components/Footers/FooterAdmin.js";
 
 const BuilderMain = () => {
@@ -28,12 +29,10 @@ const BuilderMain = () => {
       <AdminSidebar />
       <div className="relative md:ml-64 bg-blueGray-100">
         <AdminNavbar />
-        <div className="relative dark:bg-[#2a2a2a] bg-white mx-10 pb-32 pt-12">
-          Builder
+        <div>
+          <Builder />
         </div>
-        <div className="flex justify-center items-center">
-          <Card1 result={builder} />
-        </div>
+
         {/* <FooterAdmin /> */}
       </div>
     </>
